@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC94CBD1CA938D5008DBA35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC94CBC1CA938D5008DBA35 /* AppDelegate.swift */; };
+		ECC94CBF1CA938D5008DBA35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC94CBE1CA938D5008DBA35 /* ViewController.swift */; };
+		ECC94CC21CA938D5008DBA35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC94CC01CA938D5008DBA35 /* Main.storyboard */; };
+		ECC94CC41CA938D5008DBA35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC94CC31CA938D5008DBA35 /* Assets.xcassets */; };
+		ECC94CC71CA938D5008DBA35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC94CC51CA938D5008DBA35 /* LaunchScreen.storyboard */; };
+		ECC94CCF1CA93919008DBA35 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC94CCE1CA93919008DBA35 /* CircularView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECC94CB91CA938D5008DBA35 /* Circular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circular.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC94CBC1CA938D5008DBA35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECC94CBE1CA938D5008DBA35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECC94CC11CA938D5008DBA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC94CC31CA938D5008DBA35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC94CC61CA938D5008DBA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC94CC81CA938D5008DBA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC94CCE1CA93919008DBA35 /* CircularView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC94CB61CA938D5008DBA35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC94CB01CA938D5008DBA35 = {
+			isa = PBXGroup;
+			children = (
+				ECC94CBB1CA938D5008DBA35 /* Circular */,
+				ECC94CBA1CA938D5008DBA35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC94CBA1CA938D5008DBA35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC94CB91CA938D5008DBA35 /* Circular.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC94CBB1CA938D5008DBA35 /* Circular */ = {
+			isa = PBXGroup;
+			children = (
+				ECC94CBC1CA938D5008DBA35 /* AppDelegate.swift */,
+				ECC94CBE1CA938D5008DBA35 /* ViewController.swift */,
+				ECC94CC01CA938D5008DBA35 /* Main.storyboard */,
+				ECC94CC31CA938D5008DBA35 /* Assets.xcassets */,
+				ECC94CC51CA938D5008DBA35 /* LaunchScreen.storyboard */,
+				ECC94CC81CA938D5008DBA35 /* Info.plist */,
+				ECC94CCE1CA93919008DBA35 /* CircularView.swift */,
+			);
+			path = Circular;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC94CB81CA938D5008DBA35 /* Circular */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC94CCB1CA938D5008DBA35 /* Build configuration list for PBXNativeTarget "Circular" */;
+			buildPhases = (
+				ECC94CB51CA938D5008DBA35 /* Sources */,
+				ECC94CB61CA938D5008DBA35 /* Frameworks */,
+				ECC94CB71CA938D5008DBA35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Circular;
+			productName = Circular;
+			productReference = ECC94CB91CA938D5008DBA35 /* Circular.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC94CB11CA938D5008DBA35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WindFindTech;
+				TargetAttributes = {
+					ECC94CB81CA938D5008DBA35 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = ECC94CB41CA938D5008DBA35 /* Build configuration list for PBXProject "Circular" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC94CB01CA938D5008DBA35;
+			productRefGroup = ECC94CBA1CA938D5008DBA35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC94CB81CA938D5008DBA35 /* Circular */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC94CB71CA938D5008DBA35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC94CC71CA938D5008DBA35 /* LaunchScreen.storyboard in Resources */,
+				ECC94CC41CA938D5008DBA35 /* Assets.xcassets in Resources */,
+				ECC94CC21CA938D5008DBA35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC94CB51CA938D5008DBA35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC94CCF1CA93919008DBA35 /* CircularView.swift in Sources */,
+				ECC94CBF1CA938D5008DBA35 /* ViewController.swift in Sources */,
+				ECC94CBD1CA938D5008DBA35 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECC94CC01CA938D5008DBA35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC94CC11CA938D5008DBA35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC94CC51CA938D5008DBA35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC94CC61CA938D5008DBA35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC94CC91CA938D5008DBA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECC94CCA1CA938D5008DBA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC94CCC1CA938D5008DBA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Circular/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.windfindtech.Circular;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECC94CCD1CA938D5008DBA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Circular/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.windfindtech.Circular;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC94CB41CA938D5008DBA35 /* Build configuration list for PBXProject "Circular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC94CC91CA938D5008DBA35 /* Debug */,
+				ECC94CCA1CA938D5008DBA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC94CCB1CA938D5008DBA35 /* Build configuration list for PBXNativeTarget "Circular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC94CCC1CA938D5008DBA35 /* Debug */,
+				ECC94CCD1CA938D5008DBA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC94CB11CA938D5008DBA35 /* Project object */;
+}
